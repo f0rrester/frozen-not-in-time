@@ -75,6 +75,8 @@ p {
   right: 35px;
   transform: scale(.7);
   animation: mint-drop 500ms forwards linear 500ms;
+
+  /*  name duration property easing delay */
 }
 
 .chocolate-chip {
