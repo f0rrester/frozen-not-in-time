@@ -58,3 +58,14 @@ p {
   }
 
 }
+
+.image-frame {
+  min-height: 480px;
+}
+
+.cone {
+  transform: scale(.7);
+  bottom: 100%;
+  right: 35px;
+  animation: cone-drop 500ms forwards linear;
+}
