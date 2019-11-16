@@ -8,6 +8,12 @@ main {
   max-height: 500px;
 }
 
+.title {
+  color: #990073;
+  transform: rotate(-8deg);
+  margin-left: -15px;
+}
+
 p, a {
   color: #c09;
   text-decoration: none;
@@ -16,12 +22,6 @@ p, a {
 p {
   max-width: 19em;
   transform: rotate(-5deg);
-}
-
-.title {
-  color: #990073;
-  transform: rotate(-8deg);
-  margin-left: -15px;
 }
 
 .title, p {
@@ -75,6 +75,8 @@ p {
   right: 35px;
   transform: scale(.7);
   animation: mint-drop 500ms forwards linear 500ms;
+
+  /*  name duration property easing delay */
 }
 
 .chocolate-chip {
